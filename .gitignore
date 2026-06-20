@@ -1,0 +1,27 @@
+Plaintext
+# --- SISTEMA OPERATIVO Y VS CODE ---
+.DS_Store
+Thumbs.db
+.vscode/
+
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+.env
+
+# --- DOCKER Y BASES DE DATOS ---
+# Ignora los datos locales de la base de datos para no subir gigas de información a GitHub
+docker/postgres_data/
+*.db
+*.sqlite
+
+# --- dbt (Data Build Tool) ---
+dbt_modules/
+dbt_packages/
+logs/
+target/
+profiles.yml
